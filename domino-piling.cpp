@@ -1,5 +1,5 @@
 /*
- * Problem Link   : https://codeforces.com/contest/50/problem/A
+ * Problem Link   : https://codeforces.com/problemset/problem/50/A
  * Problem Name   : Domino piling
  * Language:      : C++
  * Programmer     : Ali Tarmoush 
