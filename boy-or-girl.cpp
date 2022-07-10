@@ -23,6 +23,5 @@ int main (){
 	cout<<"CHAT WITH HER!";
 	else
 	cout<<"IGNORE HIM!";
-	
     return 0 ;
 }
