@@ -5,6 +5,7 @@
  * Programmer     : Ali Tarmoush 
  * Status         : Accepted
  */
+ 
 #include<bits/stdc++.h>
 using namespace std;
 int main (){
