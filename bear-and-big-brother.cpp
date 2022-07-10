@@ -11,12 +11,10 @@ using namespace std;
 int main (){
     int a, b;
 	cin >> a >> b;
-	for (int i = 1; i <= 20; i++)
-	{
+	for (int i = 1; i <= 20; i++){
 		a *= 3;
 		b *= 2;
-		if (a>b)
-		{
+		if (a>b){
 			cout << i;
 			break;
 		}
