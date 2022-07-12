@@ -5,6 +5,7 @@
  * Programmer     : Ali Tarmoush 
  * Status         : Accepted
  */
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -18,6 +19,6 @@ int main(){
 	}
 	else
 		p = 0;
-	(p == 1)?cout << "YES":cout << "NO";
+	(p == 1)?cout << "YES"<<endl:cout << "NO"<<endl;
 	return 0;
 }
