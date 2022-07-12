@@ -5,10 +5,10 @@
  * Programmer     : Ali Tarmoush 
  * Status         : Accepted
  */
-
+ 
 #include<bits/stdc++.h>
 using namespace std;
-int main (){
+int main() {
 	int n,h;
 	cin>>n>>h;
 	int a,sum=0;
@@ -19,6 +19,6 @@ int main (){
 		else
 		sum++;
 	}
-	cout<<sum;
-    return 0 ;
+	cout<<sum<<endl;
+	return 0;
 }
