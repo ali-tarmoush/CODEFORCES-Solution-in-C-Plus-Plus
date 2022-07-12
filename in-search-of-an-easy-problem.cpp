@@ -8,17 +8,18 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-int main (){
-    int n,a,sum=0;
+int main(){
+	int n,a,sum=0;
 	cin >> n;
-	for (int i = 0; i < n; i++)
-	{
+	for (int i = 0; i < n; i++){
 		cin >> a;
 		sum += a;
 	}
 	if (sum != 0)
-		cout << "HARD";
+		cout << "HARD"<<endl;
 	else
-		cout << "EASY";
-    return 0 ;
+		cout << "EASY"<<endl;
+	return 0;
 }
+ 
+ 
