@@ -17,8 +17,8 @@ int main (){
 		st2=st1;
 		cin>>st1;
 		if(st2!=st1)
-		t++;		
+			t++;		
 	}
-	cout<<t;
+	cout<<t<<endl;
     return 0 ;
 }
