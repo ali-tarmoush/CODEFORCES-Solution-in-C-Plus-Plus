@@ -8,19 +8,24 @@
  
 #include<bits/stdc++.h>
 using namespace std;
+const int MAX = 1e2 + 56;
+int a[MAX];
 int main(){
 	ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-	int k, n, w;
-	cin >> k >> n >> w;
+	int n;
+	cin >> n;
+	for (int i = 0; i < n; i++)
+		cin >> a[i];
+	int max = a[0];
+	for (int i = 0; i < n;i++)
+	if (a[i]>max)
+		max = a[i];
 	int sum = 0;
-	for (int i = 1; i <=w; i++){
-		sum = sum + (k*i);
-	}
-	if (sum > n)
-		cout << sum - n;
-	else
-		cout << 0;
+	for (int i = 0; i < n; i++)
+		sum += (max - a[i]);
+	cout << sum <<endl;
 	return 0;
 }
+ 
