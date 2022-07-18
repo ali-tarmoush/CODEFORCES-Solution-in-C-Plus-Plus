@@ -11,6 +11,9 @@ using namespace std;
 const int MAX = 10 ;
 int m[MAX][MAX];
 int main (){
+	ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     int a=0;
 	int b=0;
 	for (int i = 1; i<=5; ++i){
