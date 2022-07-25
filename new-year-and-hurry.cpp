@@ -25,4 +25,5 @@ int main() {
             break;
     }
     cout<<sum<<endl;
+    return 0;
 }
